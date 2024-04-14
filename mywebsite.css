@@ -1,0 +1,150 @@
+@import url(https://fonts.google.com/);
+
+/*section-home*/
+
+#bg-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.back-video{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.overlay {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.main-head {
+    font-size: 100px;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 0%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    transition: 0.3s;
+    padding-top: 15%;
+    position: relative;
+    z-index: 1;
+    
+}
+.main-head:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+/*section-about*/
+
+#about {
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(243, 243, 247);
+    padding: 10px;
+    border: 0px;
+}
+#journey{
+    margin: 15px;
+    background-color: rgb(243, 243, 247);
+    padding: 10px;
+    border: 0px;
+}
+#achievments{
+    margin: 15px;
+    background-color:  rgb(243, 243, 247);
+    padding: 10px;
+    border: 0px;
+}
+#goals {
+    margin: 15px;
+    background-color: rgb(243, 243, 247);
+    padding: 10px;
+    border: 0px;
+}
+.about-heading,.journey-heading,.achievments-heading,.goals-heading {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    color: #6e6c6c;
+}
+.about-para,.journey-para,.achievments-para,.goals-para {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: medium;
+    color:  #646262;
+}
+.potti1{
+    height: 50vh;
+    width: 18vw;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .main-head {
+        font-size: 40px;
+        color: aliceblue;
+        font-weight: bold;
+        padding :0%;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        transition: 0.3s;
+        padding-top: 15%;
+        margin-top: 30%;
+        position: relative;
+        z-index: 1;
+        
+    }
+    .back-video{
+       height: 100vh;
+       width: 100vw;
+       z-index: -1;
+    }
+    .overlay {
+        position:absolute;
+        transform: translate(-50%,-50%);
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    #bg-container{
+        width: 100vw;
+        height: 100vh;
+    }
+    .about-heading,.journey-heading,.achievments-heading,.goals-heading {
+        font-family:'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: large;
+        color: #6e6c6c;
+    }
+    .about-para,.journey-para,.achievments-para,.goals-para {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        font-size: small;
+        color:  #646262;
+    }
+
+}
+
+
+
+
+
